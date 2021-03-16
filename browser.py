@@ -30,7 +30,7 @@ class Browser:
             for tag in soup.find_all(tags):
                 if tag.name == 'a':
                     page_content += colorama.Fore.BLUE + tag.text + '\n'
-                elif tag.name in tags:
+                elif tag.name in tags and tag.name != 'a':
                     page_content += colorama.Fore.WHITE + tag.text + '\n'
             return page_content
         elif r.status_code == 404:
