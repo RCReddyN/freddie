@@ -1,4 +1,4 @@
-<h1>Meet Freddie, the Elugubanti!</h1>
+<h1>Meet Freddie, the elugubanti!</h1>
 <div align="center" style="font-size:10px">
 <img src = "nother.jpg"><br>
 If you own this picture, request for removal by writing to rcreddy1997@gmail.com
