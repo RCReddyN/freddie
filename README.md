@@ -1,20 +1,10 @@
-<h1>Meet Freddie, the elugubanti!</h1>
-<div align="center" style="font-size:10px">
-<img src = "nother.jpg"><br>
-If you own this picture, request for removal by writing to rcreddy1997@gmail.com
-<br>
-<br>
-</div>
-<p>You might be probably wondering why is there a sloth bear on the screen?" But no. I mean, how can you think that way? How can a bear sit on your screen? You are just looking at a name and a picture of one. You might even wonder how on any planet this works? My dear friend, it is so simple. It works "almost" the same way as Firefox does - it has nothing to do with fire or a fox.</p>
+<h1>Meet Freddie!</h1>
+<p><b>Freddie</b> is a light-weight browser written in Python. She renders only text from a webpage ignoring all CSS, fancy JavaScript, pictures, videos and basically all visual elements.</p>
 
-<p>But, hey, come on. Let me really tell you about why you are here. You are here to experience a masterpiece in making.</p> 
-
-<p><b>Elugubanti</b> is a light-weight browser written in Python. She renders only text from a webpage ignoring all CSS, fancy JavaScript, pictures, videos and basically all visual elements.</p>
-
-<p>Elugubanti is still in development. She is just a few days old. Who knows what she will grow into?</p>  
-<h2>Here are a few things you can make Elugubanti do for now:</h2>
+<p>Freddie is still in development.</p>  
+<h2>Here are a few things you can make Freddie do for now:</h2>
 <ul>
-<li> Start a browsing session by running the script "browser.py".</li>
+<li> Start a browsing session by running the script "freddie.py".</li>
 <li> Fetch a web page and display it by typing in a url.</li>
 <li> Navigate through open tabs using a "switch tabs" command.</li>
 <li> Traverse through the browsing history using a "back" command.</li>
