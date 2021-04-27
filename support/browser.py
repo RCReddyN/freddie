@@ -6,12 +6,7 @@ from collections import deque
 
 class Browser:
     tabs = dict()
-    history = deque()
-
-    details = {"Who am I?": "Elugubanti",
-                "What am I?":   "A text-based browser",
-                "Who pets me?": "Ravi Chandra N Reddy",
-                "How old am I?": "Just a few hours"}
+    history = []
     
     def __init__(self):
         colorama.init()
