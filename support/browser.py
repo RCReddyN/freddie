@@ -1,16 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
-import colorama
 import wikipedia
 from collections import deque
 
 class Browser:
-    tabs = dict()
-    history = []
-    
-    def __init__(self):
-        colorama.init()
 
+    def __init__(self):
+        self.tabs = dict()
+        self.history = []
+    
     def read_page_from_cache(self, page):
         self.display(self.tabs[page])
 
@@ -23,10 +21,8 @@ class Browser:
             soup = BeautifulSoup(r.content, 'html.parser')
             tags = ['p', 'a', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'al', 'li']
             for tag in soup.find_all(tags):
-                if tag.name == 'a':
-                    page_content += colorama.Fore.BLUE + tag.text + '\n'
-                elif tag.name in tags and tag.name != 'a':
-                    page_content += colorama.Fore.WHITE + tag.text + '\n'
+                if tag.name in tags:
+                    page_content += tag.text + '\n'
             return page_content
         elif r.status_code == 404:
             return "404, Page Not Found"
